@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="67c79b1a53202210e8e872d0a0490ee3" label="Shop Order" max_length="40" name="x_1553898_shaoshao_shop_order" type="collection">
+        <element label="Order Date" max_length="40" name="order_date" type="glide_date"/>
+        <element label="Total Amount" max_length="20" name="total_amount" type="currency"/>
+        <element label="Buyer Name" max_length="40" name="buyer_name" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Order Number" max_length="40" name="order_number" type="string"/>
+    </element>
+</database>
